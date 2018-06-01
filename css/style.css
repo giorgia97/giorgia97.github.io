@@ -11,7 +11,7 @@ header {
     border: 1px solid #921960;
     background-color: #e9b3d2;
     transition: background-color 1s cubic-bezier(0.4, 0, 0.2, 1);
-    ;
+    width: 100%;
 }
 
 .bottone:hover {
@@ -78,4 +78,13 @@ nav li {
     width: 20%;
     display: inline-block;
     font-weight: 700;
+}
+
+@media(max-width: 600px) {
+    body {
+        background-color: red;
+    }
+    .bottone {
+        width: 100%;
+    }
 }
