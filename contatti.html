@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Yatra+One" rel="stylesheet" />
+
+    <title>I miei contatti</title>
+</head>
+
+<body>
+    <header class="withborder">
+        <span class="titolo">LOGO</span>
+        <span class="titolo">GIORGIA</span>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="Lista.html" target="_blank">Lista</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div>
+        <h1>Contatti</h1>
+        <form action="">
+
+            <div class="formItem">
+                <label for="Nome">Nome</label>
+                <input type="text" name="Nome" placeholder="inserisci il tuo nome" required/>
+            </div>
+
+            <div class="formItem">
+                <label for="Cognome">Cognome</label>
+                <input type="text" name="Cognome" placeholder="inserisci il tuo cognome" required />
+            </div>
+
+            <div class="formItem">
+                <label for="Data">Data di nascita</label>
+                <input type="date" name="Data" placeholder="inserisci la tua data di nascita" required />
+            </div>
+
+            <div class="formItem">
+                <label for="Età">Età</label>
+                <input type="number" name="Età" placeholder="inserisci la tua età" min="18" max="50"/>
+            </div>
+
+            <div class="formItem">
+                <label for="Email">Email</label>
+                <input type="email" name="Email" placeholder="inserisci la tua email" required />
+            </div>
+
+            <div class="formItem">
+                <label for="Password">Password</label>
+                <input type="password" name="Password" placeholder="inserisci la tua password" required />
+            </div>
+
+            <div class="formItem">
+                <label for="type">Metodo contatto</label>
+                <select name="type" required> 
+                    <option value="" disabled selected >Seleziona un'opzione</option>
+                    <option value="">Email</option>
+                    <option value="">Telefono</option>
+                    <option value="">Posta</option>
+                </select>
+            </div>
+
+            <div class="formItem">
+                <label for="Privacy">Accettazione privacy</label>
+                <input type="checkbox" name="privacy" required />
+            </div>
+
+            <div class="formItem">
+                    <label for="Privacy">Celibe</label>
+                    <input type="radio" name="radio" value="celibe" required />
+                </div>
+
+                <div class="formItem">
+                        <label for="Privacy">Nubile</label>
+                        <input type="radio" name="radio" value="nubile" required />
+                    </div>
+
+                    <div class="formItem">
+                            <label for="Privacy">Sposato</label>
+                            <input type="radio" name="radio" value="sposato" required />
+                        </div>
+
+            <input type="submit" value="Invia il form">
+
+
+        </form>
+    </div>
+
+</body>
+
+</html>

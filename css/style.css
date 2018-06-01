@@ -1,0 +1,58 @@
+* {
+    font-family: 'Yatra One', cursive;
+    box-sizing: border-box;
+}
+
+header {
+    margin-bottom: 40px;
+}
+
+form {
+    border: 1px solid gray;
+    padding: 20px;
+    background-image: url(../immagine/TV-Shows-Like-Breaking-Bad.jpg) 
+}
+
+img {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+}
+
+form label {
+    width: 20%;
+    display: inline-block;
+}
+
+.box {
+    border: 2px dashed fuchsia;
+    display: inline-block;
+    width: 30%;
+    padding: 5px;
+    margin: 2px;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    width: 50%;
+    padding: 10px;
+    border: 1px solid gray;
+}
+
+.formItem {
+    margin-bottom: 20px;
+}
+
+.formItem input,
+.formItem select {
+    width: 60%;
+    padding: 5px;
+}
+
+.formItem label {
+    width: 20%;
+    display: inline-block;
+    font-weight: 700;
+}
+

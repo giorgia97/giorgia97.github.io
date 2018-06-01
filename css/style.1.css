@@ -1,0 +1,52 @@
+* {
+    font-family: 'Yatra One', cursive;
+    width: 100%;
+    max-width: 600px;
+}
+
+header,
+footer {
+    border: 1px dotted coral;
+    text-align: center;
+    height: 100px;
+    color: blueviolet;
+    font-size: 4em;
+}
+
+#content {
+    border: 2px ridge indianred;
+    color: indianred;
+    display: flex;
+}
+
+#sidemenù {
+    width: 300px;
+}
+
+#Main {
+    width: 500%;
+    /* text-align: center; */
+    /* display: inline; */
+}
+
+.withborder {
+    border: 1px ridge indianred;
+}
+
+.titolo {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Yatra One', cursive;
+}
+
+h1.titolo {
+    font-size: 34px;
+    text-decoration: underline;
+}
+
+#spesa>.item>img {
+    width: 300px;
+    height: auto;
+}
