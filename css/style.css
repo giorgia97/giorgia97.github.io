@@ -7,10 +7,30 @@ header {
     margin-bottom: 40px;
 }
 
+.bottone {
+    border: 1px solid #921960;
+    background-color: #e9b3d2;
+    transition: background-color 1s cubic-bezier(0.4, 0, 0.2, 1);
+    ;
+}
+
+.bottone:hover {
+    color: #000000;
+    background-color: #ffffff;
+    cursor: pointer;
+    width: 350px;
+}
+
+.bottone_large {
+    width: 300px;
+    font-size: 20px;
+    color: #000000;
+}
+
 form {
     border: 1px solid gray;
     padding: 20px;
-    background-image: url(../immagine/TV-Shows-Like-Breaking-Bad.jpg) 
+    background-image: url(../immagine/TV-Shows-Like-Breaking-Bad.jpg)
 }
 
 img {
@@ -44,6 +64,10 @@ nav li {
     margin-bottom: 20px;
 }
 
+.formItem:hover {
+    background: #000000;
+}
+
 .formItem input,
 .formItem select {
     width: 60%;
@@ -55,4 +79,3 @@ nav li {
     display: inline-block;
     font-weight: 700;
 }
-
