@@ -5,3 +5,26 @@
 #mainmenu .active .nav-link {
     cursor: default;
 }
+
+.pippo {
+    color: red;
+    font-size: 20px;
+}
+
+.titolo {
+    color: crimson;
+    font-size: 25px;
+}
+
+.box {
+    border: 1px solid coral;
+    padding: 20px;
+}
+
+.blue {
+    background-color: blueviolet;
+}
+
+.orange {
+    background-color: orange;
+}
