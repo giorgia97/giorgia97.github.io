@@ -24,7 +24,7 @@ jQuery(document).ready(function() {
         $newBox
             .addClass(theClass)
             .text("Fine")
-            .appendTo(".container");
+            .appendTo(".container container-fluid");
         // $newBox.clone().text("FINE!").appendTo(".container")
     }
 
