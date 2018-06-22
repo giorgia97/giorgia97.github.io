@@ -1,36 +1,39 @@
 * {
-    font-family: 'Yatra One', cursive;
-    width: 100%;
-    max-width: 600px;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
 }
 
+img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+}
+
+
+/*
 header,
 footer {
-    border: 1px dotted coral;
+    border: 1px black solid;
     text-align: center;
     height: 100px;
-    color: blueviolet;
-    font-size: 4em;
+    font-size: 2em;
 }
 
 #content {
-    border: 2px ridge indianred;
-    color: indianred;
-    display: flex;
+    border: 2px dotted green;
 }
 
-#sidemenù {
-    width: 300px;
+#sideMenu {
+    width: 30%;
+    font-size: 2em;
 }
 
-#Main {
-    width: 500%;
-    /* text-align: center; */
-    /* display: inline; */
+#main {
+  
+    width: 70%;
 }
 
-.withborder {
-    border: 1px ridge indianred;
+.withBorder {
+    border: 1px solid gray;
 }
 
 .titolo {
@@ -38,11 +41,11 @@ footer {
     font-weight: bold;
     text-align: center;
     text-transform: uppercase;
-    font-family: 'Yatra One', cursive;
+    font-family: 'Roboto', sans-serif;
 }
 
 h1.titolo {
-    font-size: 34px;
+    font-size: 28px;
     text-decoration: underline;
 }
 
@@ -50,3 +53,8 @@ h1.titolo {
     width: 300px;
     height: auto;
 }
+
+#spesa img {
+    width: 500px;
+    height: auto;
+}*/

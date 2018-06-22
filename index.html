@@ -2,76 +2,80 @@
 
 <head>
     <meta charset="utf-8" />
+    <!-- og:meta per la condivuisione social -->
+    <meta property="og:title" content="Titolo Social">
+    <meta property="og:description" content="Descrizione social...">
+    <meta property="og:image" content="./img/walter.jpg">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" />
     <link rel="stylesheet" href="./css/style.css" />
-    <link href="https://fonts.googleapis.com/css?family=Yatra+One" rel="stylesheet" />
-    <title>_Giorgia_!!!</title>
-    <meta property="og:title" content="Titolo social" />
-    <meta property="og:img" content="./immagine" />
-    <meta property="og:description" content="Descrizione immagine">
+    <title>Ciao nuovo titol dasdaso</title>
+
 </head>
 
 <body>
-    <!-- commento che non si viualizza nella pagina -->
     <div class="container-fluid">
-        <nav id="mainmenu" class="navbar navbar-expand-lg navbar-dark bg-danger">
-            <a class="navbar-brand" href="#"> <img src="" height="30" width="30" alt=""> Menù </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                            </button>
+        <nav id="mainMenu" class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <a class="navbar-brand" href="#">
+                <img src="./img/walter.jpg" height="30" width="30" alt="Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">  <span class="navbar-toggler-icon"></span>  </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#"> Home <span class="sr-only">(current)</span></a>
+
+                    <li class="nav-item active ">
+                        <a class="nav-link " href="#">Home 
+                        </a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="lista.html">Lista</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="Registrazione.html">Registrazione</a>
+                        <a class="nav-link" href="signup.html">Signup</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="ListaUtenti.html">Lista Utenti</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="Slide.html">Slide</a>
-                    </li>
+
                 </ul>
             </div>
         </nav>
-    </div>
+        <div class="container">
 
+            <!-- <button class="btn btn-warning">
+                <a href="http://www.google.it">BOTTONE > HREF</a>
+            </button> -->
 
+            <!-- <a href="http://www.google.it"> -->
+            <button class="btn btn-primary" id="btnCreateBox">    CREA BOX  </button>
+            <!-- </a> -->
 
-    <div class="container-fluid titolo">
-        Vuoi avere anche tu delle foto ricordo?
-        <div>
-            <a href="./Slide.html">
-                <button type="button" class="btn btn-danger">CLICCA QUI</button>
-            </a>
+            <a href="http://www.google.it" class="btn btn-danger">LINK BUTTON</a>
+
+            <div class="titolo ">
+                TITOLO
+            </div>
+
+            <ul id="list " class="pippo ">
+                <li>1</li>
+
+                <li>2</li>
+
+                <li>3</li>
+            </ul>
+
+            <img src="https://loremflickr.com/g/300/200/dogs " alt=" ">
+            <img src="https://loremflickr.com/g/300/200/cats " alt=" ">
+            <img src="https://loremflickr.com/g/300/200/games " alt=" ">
         </div>
+
     </div>
 
+    <script src="https://code.jquery.com/jquery-3.3.1.js "></script>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js " integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49 " crossorigin="anonymous "></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js " integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T " crossorigin="anonymous "></script>
 
+    <script src="./js/main.js "></script>
 
-
-    <!-- <button class="btn btn-danger" id="buttonCreateBox"> BOX </button> -->
-
-    <!-- <div>
-                <ul id="list" class="pippo">
-                    <li>1</li>
-                    <li>2</li>
-                    <li>3</li>
-                </ul>
-
-                <img src="https://loremflickr.com/g/200/400/dogs" alt="">
-                <img src="https://loremflickr.com/g/200/400/pizza" alt="">
-                <img src="https://loremflickr.com/g/200/400/cats" alt="">
-            </div>-->
-
-
-    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
-    <script src="./js/main.js"></script>
 </body>
 
 </html>

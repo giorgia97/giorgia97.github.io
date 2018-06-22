@@ -1,30 +1,52 @@
-#mainmenu {
+body {
     margin-bottom: 40px;
 }
 
-#mainmenu .active .nav-link {
+#mainMenu {
+    margin-bottom: 40px;
+}
+
+#mainMenu .active .nav-link {
     cursor: default;
 }
 
-.pippo {
-    color: red;
-    font-size: 20px;
-}
-
-.titolo {
-    color: crimson;
-    font-size: 25px;
-}
-
 .box {
-    border: 1px solid coral;
+    border: 1px solid gray;
     padding: 20px;
 }
 
 .blue {
-    background-color: blueviolet;
+    background-color: blue;
 }
 
 .orange {
     background-color: orange;
+}
+
+#emptyContent {}
+
+#loadingBar {
+    display: none;
+}
+
+#usersTable {
+    display: none;
+}
+
+<<<<<<< HEAD
+.inputFocus {
+    color: lightcoral !important;
+    font-weight: bold;
+    border: 2px solid lightcoral;
+=======
+input::placeholder {
+    color: red !important;
+}
+
+input:hover {}
+
+.inputFocus {
+    color: #27a527 !important;
+    font-weight: bold;
+>>>>>>> 414562651b44411d9bf4aa6dd0e2c3fb437c1b3f
 }

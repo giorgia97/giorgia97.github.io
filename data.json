@@ -1,0 +1,41 @@
+<<<<<<< HEAD
+
+[{
+    "name":"Pippo",
+    "age": 37,
+    "children": [
+        {
+            "name":"Pipino",
+            "age":"3"
+        },
+        {
+            "name":"Gigino",
+            "age":"2"
+        }
+    ],
+    "partner": {
+        "name":"Bilbo",
+        "age":40
+    }
+}]
+=======
+[{
+        "name": "Pippo",
+        "age": 37,
+        "children": [
+            { "name": "Pipino", "age": 3 },
+            { "name": "Gigino", "age": 2 }
+        ],
+        "partner": {
+            "name": "Bilbo",
+            "age": 28
+        }
+    },
+    {
+        "name": "Pippo2",
+        "age": 47,
+        "children": [],
+        "partner": null
+    }
+]
+>>>>>>> 414562651b44411d9bf4aa6dd0e2c3fb437c1b3f
